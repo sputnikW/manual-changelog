@@ -2,6 +2,6 @@
 
 'use strict';
 
-const manualChangelog = require('../build/dist').default;
+const manualChangelog = require('../dist').default;
 
 manualChangelog();

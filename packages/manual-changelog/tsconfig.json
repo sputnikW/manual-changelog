@@ -6,7 +6,7 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "esnext",
-    "outDir": "build/dist",
+    "outDir": "dist",
     "baseUrl": "./",
     "declaration": true,
     "paths": {
