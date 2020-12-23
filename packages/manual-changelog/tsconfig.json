@@ -1,0 +1,16 @@
+{
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": ["node_modules", "bin"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "esnext",
+    "outDir": "build/dist",
+    "baseUrl": "./",
+    "declaration": true,
+    "paths": {
+      "@lib/*": ["lib/*"]
+    }
+  }
+}
