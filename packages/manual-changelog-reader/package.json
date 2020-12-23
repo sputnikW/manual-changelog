@@ -1,0 +1,32 @@
+{
+  "name": "manual-changelog-reader",
+  "version": "0.0.1",
+  "description": "Read changelog info created by manual-changelog.",
+  "keywords": [
+    "changelog"
+  ],
+  "author": "涧鸣 <wjm286777@antgroup.com>",
+  "homepage": "https://github.com/sputnikW/manual-changelog",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sputnikW/manual-changelog.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sputnikW/manual-changelog/issues"
+  }
+}
